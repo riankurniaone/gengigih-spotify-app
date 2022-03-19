@@ -2,12 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const client_id= process.env.REACT_APP_SPOTIFY_ID;
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello World <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
